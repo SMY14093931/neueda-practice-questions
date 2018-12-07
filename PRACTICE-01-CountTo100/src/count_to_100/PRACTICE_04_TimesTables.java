@@ -3,7 +3,13 @@ package count_to_100;
 public class PRACTICE_04_TimesTables {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		int a, b;
+		for (a = 1; a <= 12; ++a) {
+	        for (b = 1; b <= 12; ++b) {
+	        	System.out.print(a+"x"+b+" ");
+	        }
+	        	System.out.println();
+	        }
 
 	}
 
